@@ -29,6 +29,9 @@ import OutroComponente from "./OutroComponente";
 import Template from "./TemplateExpress";
 import ContaBancaria from "./ContaBancaria";
 import Treinamento from "./Treinamento";
+import SomaComponente from "./Soma";
+import Caluladora from "./Calculadora";
+import Somar from "./Somar";
 import './App.css';
 
 function App(){
@@ -36,7 +39,8 @@ function App(){
    <div className="App">
     <h1>Fundamentos React</h1>
     <Template/>
-    <ContaBancaria/>
+    <Caluladora/>
+    <Somar/>
    </div>
   );
 }
